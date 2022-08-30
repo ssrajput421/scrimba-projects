@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="wrapper">
+                <div class="home">
+                    <h3 class="title">HOME</h3>
+                    <p class="count" id="homeCount">0</p>
+                    <button class="count-btn" onclick="add1Home()">+1</button>
+                    <button class="count-btn" onclick="add2Home()">+2</button>
+                    <button class="count-btn" onclick="add3Home()">+3</button>
+                </div>
+                <div class="guest">
+                    <h3 class="title">GUEST</h3>
+                    <p class="count" id="guestCount">0</p>
+                    <button class="count-btn" onclick="add1Guest()">+1</button>
+                    <button class="count-btn" onclick="add2Guest()">+2</button>
+                    <button class="count-btn" onclick="add3Guest()">+3</button>
+                </div>
+            </div>
+            <div class="reset">
+                <button class="reset-btn" onclick="reset()">Reset</button>
+                </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
